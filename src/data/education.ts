@@ -3,7 +3,7 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   {
     title: "Bachelor Of Engineering in Electronics and Telecommunication",
-    organisation: {
+    organization: {
       name: "Rizvi College Of Engineering",
       href: "https://eng.rizvi.edu.in/",
     },
@@ -14,7 +14,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   },
   {
     title: "Higher Secondary School",
-    organisation: {
+    organization: {
       name: "Mithibai College",
       href: "https://www.mithibai.ac.in/",
     },
@@ -25,7 +25,7 @@ export const EDUCATION: ExperienceShowcaseListItemProps[] = [
   },
   {
     title: "Secondary School Education",
-    organisation: {
+    organization: {
       name: "Holy Family High School",
       href: "https://holyfamilyandheri.org/",
     },

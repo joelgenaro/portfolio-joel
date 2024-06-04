@@ -39,7 +39,7 @@ function ShowCaseLiIcon(props: ExperienceListIconProps) {
 
 export interface ExperienceShowcaseListItemProps {
   title: string;
-  organisation: {
+  organization: {
     name: string;
     href: string;
   };
@@ -66,12 +66,12 @@ export default function ExperienceShowcaseListItem(
         <h3 className="text-base font-bold text-foreground sm:text-xl md:text-2xl">
           {props.title}{" "}
           <Link
-            href={props.organisation.href}
+            href={props.organization.href}
             className="cursor-pointer text-accent"
             target="_blank"
             rel="nofollow"
           >
-            @{props.organisation.name}
+            @{props.organization.name}
           </Link>
         </h3>
         <span className="text-sm font-medium text-foreground xs:text-base">

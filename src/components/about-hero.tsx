@@ -52,14 +52,14 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
-                width={15}
-                height={15}
+                alt="USA flag"
+                src="https://flagcdn.com/us.svg"
+                width={1235}
+                height={650}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Miami, Florida
             </span>
           </FadeRight>
         </AnimatePresence>
