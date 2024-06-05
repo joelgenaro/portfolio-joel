@@ -10,18 +10,18 @@ export default function About() {
   return (
     <>
       <NextSeo
-        title="About Dev Ninja | React and Frontend Developer"
-        description="Learn more about Dev Ninja, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
+        title="About Joel Genaro | React and Frontend Developer"
+        description="Learn more about Joel Genaro, a dedicated React and Frontend Developer with 2 years of experience. Discover the journey, skills, and passion that drive me to create innovative and user-friendly web solutions."
         canonical={`${siteMetadata.siteUrl}/about`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/about`,
-          title: "Learn About Dev Ninja - React and Frontend Developer",
+          title: "Learn About Joel Genaro - React and Frontend Developer",
           description:
-            "Dive into the story of Dev Ninja, a React and Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
+            "Dive into the story of Joel Genaro, a React and Frontend Developer. Uncover the experiences, skills, and passion that fuel a commitment to delivering exceptional web solutions.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Dev Ninja - Portfolio Image",
+              alt: "Joel Genaro - Portfolio Image",
             },
           ],
           siteName: siteMetadata.siteName,
