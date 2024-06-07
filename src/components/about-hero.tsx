@@ -53,13 +53,13 @@ export default function AboutHero() {
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
                 alt="USA flag"
-                src="https://flagcdn.com/us.svg"
+                src="https://flagcdn.com/ph.svg"
                 width={1235}
                 height={650}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Miami, Florida
+              Bohol, Philippines
             </span>
           </FadeRight>
         </AnimatePresence>

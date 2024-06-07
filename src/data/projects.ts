@@ -53,7 +53,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/jsontree",
+    sourceCodeHref: "https://github.com/joelgenaro/jsontree",
     liveWebsiteHref: "https://jsontree.vercel.app",
   },
   {
@@ -66,7 +66,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/BUMBAIYA/kanban",
+    sourceCodeHref: "https://github.com/joelgenaro/kanban",
     liveWebsiteHref: "https://kannban-board.vercel.app",
   },
   {
@@ -81,7 +81,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
-    sourceCodeHref: "https://github.com/BUMBAIYA/ManyGames",
+    sourceCodeHref: "https://github.com/joelgenaro/ManyGames",
     liveWebsiteHref: "https://manygames.vercel.app",
   },
   {
@@ -107,8 +107,8 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     ],
     description:
       "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/BUMBAIYA/CovidTracker",
-    liveWebsiteHref: "https://bumbaiya.github.io/CovidTracker",
+    sourceCodeHref: "https://github.com/joelgenaro/CovidTracker",
+    liveWebsiteHref: "https://joelgenaro.github.io/CovidTracker",
   },
   {
     name: "Stock predictor",
