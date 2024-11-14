@@ -21,6 +21,7 @@ import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
 
 // Libraries
+import AngularSvg from "@/public/icons/angular.svg";
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import SolidjsSvg from "@/public/icons/solidjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
@@ -74,6 +75,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
     sectionName: "Libraries and Frameworks",
     skills: [
+      {
+        name: "Angular",
+        icon: AngularSvg,
+      },
       {
         name: "Reactjs",
         icon: ReactjsSvg,
