@@ -28,14 +28,14 @@ export default function Home() {
     <>
       <CursorTrailCanvas className="pointer-events-none fixed inset-0 -z-10 h-full w-full" />
       <NextSeo
-        title="Joel Genaro | React and Frontend Developer"
-        description="Explore the professional portfolio of Joel Genaro, a skilled React and Frontend Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Joel Genaro | Full-Stack Developer"
+        description="Explore the professional portfolio of Joel Genaro, a skilled Full-Stack Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Joel Genaro - React and Frontend Developer Portfolio",
+          title: "Joel Genaro - Full-Stack Developer Portfolio",
           description:
-            "Dive into the world of web development with Joel Genaro. Discover a React and Frontend Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Dive into the world of web development with Joel Genaro. Discover a Full-Stack Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
