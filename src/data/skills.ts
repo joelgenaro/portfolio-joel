@@ -31,6 +31,7 @@ import ViteSvg from "@/public/icons/vite.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
+import NestjsSvg from "@/public/icons/nestjs.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -127,6 +128,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Nodejs",
         icon: NodejsSvg,
+      },
+      {
+        name: "Nestjs",
+        icon: NestjsSvg,
       },
       {
         name: "Express",

@@ -114,13 +114,23 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     name: "Stock predictor",
     favicon: "/images/projects/logos/stockpredictor.ico",
     imageUrl: [
-      "/images/projects/stockPredictor.webp",
-      "/images/projects/stockPredictorCandleChart.webp",
-      "/images/projects/stockPredictorCompareChart.webp",
-      "/images/projects/stockPredictorLineChart.webp",
+      "/images/projects/img_20241202.png",
+      "/images/projects/img_20241202(4).png",
+      "/images/projects/img_20241202(3).png",
+      "/images/projects/img_20241202(1).png",
     ],
     description:
-      "Get prediction of opening and closing price of stocks price. Frontend is made using Reactjs and backend is made using Flask and Machine learning model are trained using Tensorflow",
-    sourceCodeHref: "https://github.com/Rohrschachh/Stock-Market-Predictor",
+      "In this stock market platform, I focused heavily on chart development, site performance optimization, and converting Figma designs to pixel-perfect implementations using Tailwind CSS. I utilized libraries such as Chart.js and HighCharts to display stock data, trends, and analytics",
+    sourceCodeHref: "https://github.com/joelgenaro/Stock-Market-Predictor",
+    liveWebsiteHref: "https://trendlyne.com/",
+  },
+  {
+    name: "Flightradar",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: ["/images/projects/img_20241204.png"],
+    description:
+      "I utilized React to create a dynamic and responsive user interface that allows users to track live flights around the world in real-time. For the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
+    sourceCodeHref: "https://github.com/joelgenaro/FlightTradar",
+    liveWebsiteHref: "https://www.flightradar24.com",
   },
 ];

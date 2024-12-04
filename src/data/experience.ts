@@ -7,7 +7,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Lob",
       href: "https://lob.com/",
     },
-    date: "2020 - 2023",
+    date: "2021 - 2024",
     location: "California, USA",
     description: "Reactjs and Nextjs app development",
   },
@@ -17,7 +17,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
       name: "Templafy",
       href: "https://templafy.com/",
     },
-    date: "2018 - 2020",
+    date: "2017 - 2021",
     location: "Remote",
     description:
       "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
