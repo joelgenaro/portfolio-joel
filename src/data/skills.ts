@@ -30,11 +30,11 @@ import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 import IonicSvg from "@/public/icons/ionic.svg";
-import LaravelSvg from "@/public/icons/laravel.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
 import NestjsSvg from "@/public/icons/nestjs.svg";
+import LaravelSvg from "@/public/icons/laravel.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -130,10 +130,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: VitePwaIcon,
       },
       {
-        name: "Laravel",
-        icon: LaravelSvg,
-      },
-      {
         name: "Ionic",
         icon: IonicSvg,
       },
@@ -161,6 +157,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Flask",
         icon: SiFlask,
+      },
+      {
+        name: "Laravel",
+        icon: LaravelSvg,
       },
     ],
   },
