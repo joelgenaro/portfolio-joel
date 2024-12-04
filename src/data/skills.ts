@@ -19,6 +19,7 @@ import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import PythonSvg from "@/public/icons/python.svg";
+import PHPSvg from "@/public/icons/php.svg";
 
 // Libraries
 import AngularSvg from "@/public/icons/angular.svg";
@@ -28,6 +29,8 @@ import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
+import IonicSvg from "@/public/icons/ionic.svg";
+import LaravelSvg from "@/public/icons/laravel.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -36,11 +39,13 @@ import NestjsSvg from "@/public/icons/nestjs.svg";
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
+import MySQLSvg from "@/public/icons/mysql.svg";
 
 // Tools and Tech
 import GitSvg from "@/public/icons/git.svg";
 import DockerSvg from "@/public/icons/docker.svg";
 import AwsSvg from "@/public/icons/aws.svg";
+import AzureSvg from "@/public/icons/azure.svg";
 import PostmanSvg from "@/public/icons/postman.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
@@ -70,6 +75,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Python",
         icon: PythonSvg,
+      },
+      {
+        name: "PHP",
+        icon: PHPSvg,
       },
     ],
   },
@@ -120,6 +129,14 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         name: "Vite PWA",
         icon: VitePwaIcon,
       },
+      {
+        name: "Laravel",
+        icon: LaravelSvg,
+      },
+      {
+        name: "Ionic",
+        icon: IonicSvg,
+      },
     ],
   },
   {
@@ -151,12 +168,16 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Databases and ORMs",
     skills: [
       {
-        name: "MongoDB",
-        icon: MongoDBSvg,
+        name: "MySQL",
+        icon: MySQLSvg,
       },
       {
         name: "Postgress",
         icon: PostgressSvg,
+      },
+      {
+        name: "MongoDB",
+        icon: MongoDBSvg,
       },
       {
         name: "Prisma",
@@ -178,6 +199,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "AWS",
         icon: AwsSvg,
+      },
+      {
+        name: "AZURE",
+        icon: AzureSvg,
       },
       {
         name: "Postman",

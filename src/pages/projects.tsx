@@ -13,8 +13,7 @@ export default function Projects() {
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title:
-            "Discover Projects by Joel Genaro - Full-Stack Developer",
+          title: "Discover Projects by Joel Genaro - Full-Stack Developer",
           description:
             "Explore a showcase of projects crafted by Joel Genaro, a Full-Stack Developer. Witness the fusion of creativity and technology in web development.",
           images: [
