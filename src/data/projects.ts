@@ -136,16 +136,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "FitBark GPS for Dogs & Cats",
     favicon: "/images/projects/logos/stockpredictor.ico",
-    imageUrl: [
-      "/images/projects/dog/1.jpg",
-      "/images/projects/dog/2.jpg",
-      "/images/projects/dog/3.jpg",
-      "/images/projects/dog/4.jpg",
-      "/images/projects/dog/5.jpg",
-      "/images/projects/dog/6.jpg",
-      "/images/projects/dog/7.jpg",
-      "/images/projects/dog/8.jpg",
-    ],
+    imageUrl: ["/images/projects/dog.jpg"],
     description:
       "I created a dynamic mobile application that allowed users to track dog activities, manage profiles, and connect with local pet services. I leveraged Ionic/Firebase, utilizing Angular components, Firestore, and Firebase Authentication.",
     sourceCodeHref: "https://github.com/joelgenaro/fitbark",
