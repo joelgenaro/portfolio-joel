@@ -129,8 +129,27 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/stockpredictor.ico",
     imageUrl: ["/images/projects/img_20241204.png"],
     description:
-      "I utilized React to create a dynamic and responsive user interface that allows users to track live flights around the world in real-time. For the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
+      "I utilized React/Node to create a dynamic and responsive user interface. For the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
     sourceCodeHref: "https://github.com/joelgenaro/FlightTradar",
     liveWebsiteHref: "https://www.flightradar24.com",
+  },
+  {
+    name: "FitBark GPS for Dogs & Cats",
+    favicon: "/images/projects/logos/stockpredictor.ico",
+    imageUrl: [
+      "/images/projects/dog/1.jpg",
+      "/images/projects/dog/2.jpg",
+      "/images/projects/dog/3.jpg",
+      "/images/projects/dog/4.jpg",
+      "/images/projects/dog/5.jpg",
+      "/images/projects/dog/6.jpg",
+      "/images/projects/dog/7.jpg",
+      "/images/projects/dog/8.jpg",
+    ],
+    description:
+      "I created a dynamic mobile application that allowed users to track dog activities, manage profiles, and connect with local pet services. I leveraged Ionic/Firebase, utilizing Angular components, Firestore, and Firebase Authentication.",
+    sourceCodeHref: "https://github.com/joelgenaro/fitbark",
+    liveWebsiteHref:
+      "https://play.google.com/store/apps/details?id=fitbark.com.android",
   },
 ];
