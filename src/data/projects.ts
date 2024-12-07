@@ -56,19 +56,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://jsontree.vercel.app",
   },
   {
-    name: "Kanban app",
-    favicon: "/images/projects/logos/kanban.ico",
-    imageUrl: [
-      "/images/projects/kanbanLight.webp",
-      "/images/projects/kanbanDark.webp",
-      "/images/projects/kanbanCardLight.webp",
-    ],
-    description:
-      "Keep track of projects and tasks in different categories. Drag and drop card from tables. Assign user and priority to task and many more features. This app is made using Reactjs, Typescript, Tailwindcss and React-beautiful-dnd library.",
-    sourceCodeHref: "https://github.com/joelgenaro/kanban",
-    liveWebsiteHref: "https://kannban-board.vercel.app",
-  },
-  {
     name: "Many Games",
     favicon: "/images/projects/logos/manygames.ico",
     imageUrl: [
@@ -140,7 +127,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "ManikirShop",
-    favicon: "/favicon.ico",
+    favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/reactnative.jpg"],
     description:
       "I developed an e-commerce app using React Native for the mobile interface, and the backend was built with Laravel, where I implemented RESTful APIs to manage user authentication, product listings, and order processing.",
