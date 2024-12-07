@@ -1,6 +1,5 @@
 import { type ProjectCardProps } from "@/components/projects/project-card";
 import { type ProjectShowcaseListItem } from "@/components/projects/project-showcase-list";
-import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   {
@@ -83,19 +82,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "Many short and fun games using Reactjs, Typescript and Tailwindcss with collaboration with other developers",
     sourceCodeHref: "https://github.com/joelgenaro/ManyGames",
     liveWebsiteHref: "https://manygames.vercel.app",
-  },
-  {
-    name: "My portfolio",
-    favicon: "/favicon.ico",
-    imageUrl: [
-      "/images/projects/portfolioDark.webp",
-      "/images/projects/portfolioLight.webp",
-    ],
-    description:
-      "My personal portfolio website made using Nextjs, tailwindcss and framer motion.",
-    sourceCodeHref:
-      "https://github.com/Dev0715/Portfolio-Next-Animation-Template",
-    liveWebsiteHref: siteMetadata.siteUrl,
   },
   {
     name: "Covid Tracker",
