@@ -32,7 +32,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
   },
   {
     index: 2,
-    title: "Kanban",
+    title: "Flightradar",
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
@@ -121,7 +121,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Flightradar",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/img_20241204.png"],
     description:
       "I utilized React/Node to create a dynamic and responsive user interface. For the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
