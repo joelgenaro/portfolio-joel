@@ -111,6 +111,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://joelgenaro.github.io/CovidTracker",
   },
   {
+    name: "Dormeo",
+    favicon: "/favicon.ico",
+    imageUrl: ["/images/projects/shopify.jpg"],
+    description:
+      "I developed a headless e-commerce website using Shopify with GraphQL APIs, leveraging Next.js, I converted Figma designs into reusable React components, ensuring pixel-perfect implementation while integrating Sanity CMS.",
+    sourceCodeHref: "https://github.com/joelgenaro/dormeo",
+    liveWebsiteHref: "https://www.dormeo.co.uk/",
+  },
+  {
     name: "Stock predictor",
     favicon: "/images/projects/logos/stockpredictor.ico",
     imageUrl: [
@@ -152,14 +161,5 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     sourceCodeHref: "https://github.com/joelgenaro/ManikirShop",
     liveWebsiteHref:
       "https://play.google.com/store/apps/details?id=com.manikirshop",
-  },
-  {
-    name: "Dormeo",
-    favicon: "/favicon.ico",
-    imageUrl: ["/images/projects/shopify.jpg"],
-    description:
-      "I developed a headless e-commerce website using Shopify with GraphQL APIs, leveraging Next.js, I converted Figma designs into reusable React components, ensuring pixel-perfect implementation while integrating Sanity CMS.",
-    sourceCodeHref: "https://github.com/joelgenaro/dormeo",
-    liveWebsiteHref: "https://www.dormeo.co.uk/",
   },
 ];
