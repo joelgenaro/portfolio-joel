@@ -135,7 +135,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "FitBark GPS for Dogs & Cats",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "/favicon.ico",
     imageUrl: ["/images/projects/dog.jpg"],
     description:
       "I created a dynamic mobile application that allowed users to track dog activities, manage profiles, and connect with local pet services. I leveraged Ionic/Firebase, utilizing Angular components, Firestore, and Firebase Authentication.",
@@ -145,7 +145,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "ManikirShop",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "/favicon.ico",
     imageUrl: ["/images/projects/reactnative.jpg"],
     description:
       "I developed an e-commerce app using React Native for the mobile interface, and the backend was built with Laravel, where I implemented RESTful APIs to manage user authentication, product listings, and order processing.",
@@ -155,7 +155,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Dormeo",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "/favicon.ico",
     imageUrl: ["/images/projects/shopify.jpg"],
     description:
       "I developed a headless e-commerce website using Shopify with GraphQL APIs, leveraging Next.js, I converted Figma designs into reusable React components, ensuring pixel-perfect implementation while integrating Sanity CMS.",
