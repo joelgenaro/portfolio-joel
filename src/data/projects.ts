@@ -130,7 +130,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/reactnative.jpg"],
     description:
-      "I developed an e-commerce app using React Native for the mobile interface, and the backend was built with Laravel, where I implemented RESTful APIs to manage user authentication, product listings, and order processing.",
+      "I developed an e-commerce app using Flutter for the mobile interface, and the backend was built with Node/AWS, where I implemented RESTful APIs to manage user authentication, product listings, and order processing.",
     sourceCodeHref: "https://github.com/joelgenaro/ManikirShop",
     liveWebsiteHref:
       "https://play.google.com/store/apps/details?id=com.manikirshop",
