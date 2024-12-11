@@ -30,6 +30,7 @@ import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 import MuiSvg from "@/public/icons/mui.svg";
 import ViteSvg from "@/public/icons/vite.svg";
 import IonicSvg from "@/public/icons/ionic.svg";
+import FlutterSvg from "@/public/icons/flutter.svg";
 
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
@@ -134,8 +135,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: IonicSvg,
       },
       {
-        name: "ReactNative",
-        icon: ReactjsSvg,
+        name: "Flutter",
+        icon: FlutterSvg,
       },
     ],
   },
