@@ -120,7 +120,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/dog.jpg"],
     description:
-      "I created a dynamic mobile application that allowed users to track dog activities, manage profiles, and connect with local pet services. I leveraged Ionic/Firebase, utilizing Angular components, Firestore, and Firebase Authentication.",
+      "I created a dynamic mobile application that allowed users to track dog activities, manage profiles, and connect with local pet services. I leveraged React Native/Firebase, utilizing React components, Firestore, and Firebase Authentication.",
     sourceCodeHref: "https://github.com/joelgenaro/fitbark",
     liveWebsiteHref:
       "https://play.google.com/store/apps/details?id=fitbark.com.android",
@@ -130,7 +130,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/reactnative.jpg"],
     description:
-      "I developed an e-commerce app using Flutter for the mobile interface, and the backend was built with Node/AWS, where I implemented RESTful APIs to manage user authentication, product listings, and order processing.",
+      "I developed an e-commerce app using Ionic/Angular for the mobile interface, and the backend was built with Node/AWS, where I implemented RESTful APIs to manage user authentication, product listings, and order processing.",
     sourceCodeHref: "https://github.com/joelgenaro/ManikirShop",
     liveWebsiteHref:
       "https://play.google.com/store/apps/details?id=com.manikirshop",
