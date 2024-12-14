@@ -102,7 +102,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/img_20241202(1).png",
     ],
     description:
-      "In this stock market platform, I focused heavily on chart development, site performance optimization, and converting Figma designs to pixel-perfect implementations using Tailwind CSS. I utilized libraries such as Chart.js and HighCharts to display stock data, trends, and analytics",
+      "In this stock market platform, I utilized MERN Stack, Chart.js, and HighCharts to display stock data, trends, and analytics",
     sourceCodeHref: "https://github.com/joelgenaro/Stock-Market-Predictor",
     liveWebsiteHref: "https://trendlyne.com/",
   },
