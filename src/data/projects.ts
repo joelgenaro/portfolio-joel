@@ -120,7 +120,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/dog.jpg"],
     description:
-      "I created a dynamic mobile application that allowed users to track dog activities, manage profiles, and connect with local pet services. The backend was built with Node, and AWS.",
+      "I created a GPS/Health mobile application with React Native that allowed users to track dog activities, manage profiles, and connect with local pet services. The backend was built with Node, and AWS.",
     sourceCodeHref: "https://github.com/joelgenaro/fitbark",
     liveWebsiteHref:
       "https://play.google.com/store/apps/details?id=fitbark.com.android",
