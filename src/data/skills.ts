@@ -135,7 +135,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: IonicSvg,
       },
       {
-        name: "Reactnative",
+        name: "React Native",
         icon: ReactnativeSvg,
       },
     ],
