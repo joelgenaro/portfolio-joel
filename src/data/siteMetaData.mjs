@@ -12,7 +12,7 @@ export const siteMetadata = {
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
-  email: "joel.ggdev@gmail.com",
+  email: "joelgenaro0202@gmail.com",
   github: "https://github.com/joelgenaro",
   twitter: "https://twitter.com/joelgenaro",
   linkedin: "https://www.linkedin.com/in/joel-genaro-359a90188/",
