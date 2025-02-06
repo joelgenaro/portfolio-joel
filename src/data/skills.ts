@@ -3,7 +3,6 @@ import {
   SiSocketdotio,
   SiPrisma,
   SiNextdotjs,
-  SiFlask,
 } from "react-icons/si";
 import {
   FramerMotionIcon,
@@ -18,7 +17,8 @@ import CsssSvg from "@/public/icons/css.svg";
 import SassSvg from "@/public/icons/sass.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
-import PythonSvg from "@/public/icons/python.svg";
+import RubySvg from "@/public/icons/ruby.svg";
+import RailsSvg from "@/public/icons/rails.svg";
 import PHPSvg from "@/public/icons/php.svg";
 
 // Libraries
@@ -74,8 +74,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: TypescriptSvg,
       },
       {
-        name: "Python",
-        icon: PythonSvg,
+        name: "Ruby",
+        icon: RubySvg,
       },
       {
         name: "PHP",
@@ -160,8 +160,8 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiSocketdotio,
       },
       {
-        name: "Flask",
-        icon: SiFlask,
+        name: "Rails",
+        icon: RailsSvg,
       },
       {
         name: "Laravel",

@@ -9,7 +9,7 @@ export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
     },
     date: "2021 - 2024",
     location: "California, USA",
-    description: "Reactjs and Nextjs app development",
+    description: "Full-Stack app development",
   },
   {
     title: "Full Stack Developer",
