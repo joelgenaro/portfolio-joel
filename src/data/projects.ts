@@ -36,8 +36,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
-      LIGHT: "/images/projects/img_20241204.png",
-      DARK: "/images/projects/img_20241204.png",
+      LIGHT: "/images/projects/img_20241204.webp",
+      DARK: "/images/projects/img_20241204.webp",
     },
   },
 ];
