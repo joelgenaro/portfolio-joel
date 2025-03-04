@@ -36,8 +36,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Zustand", "React DND"],
     image: {
-      LIGHT: "/images/projects/img_20241204.webp",
-      DARK: "/images/projects/img_20241204.webp",
+      LIGHT: "/images/projects/img_20241204.png",
+      DARK: "/images/projects/img_20241204.png",
     },
   },
 ];
@@ -71,19 +71,6 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     liveWebsiteHref: "https://manygames.vercel.app",
   },
   {
-    name: "Covid Tracker",
-    favicon: "/images/projects/logos/covidtracker.ico",
-    imageUrl: [
-      "/images/projects/covidTracker.webp",
-      "/images/projects/covidTrackerMap.webp",
-      "/images/projects/covidTrackerTable.webp",
-    ],
-    description:
-      "Get latest covid related stats in a table where user can filter using country and cases. It also has a map which show every countries data for quick view. It uses an open source api (disease.sh). Made using Reactjs, Javascript and MUI",
-    sourceCodeHref: "https://github.com/joelgenaro/CovidTracker",
-    liveWebsiteHref: "https://joelgenaro.github.io/CovidTracker",
-  },
-  {
     name: "Dormeo",
     favicon: "/favicon.ico",
     imageUrl: ["/images/projects/shopify.jpg"],
@@ -114,6 +101,15 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "I utilized React/Node, and for the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
     sourceCodeHref: "https://github.com/joelgenaro/FlightTradar",
     liveWebsiteHref: "https://www.flightradar24.com",
+  },
+  {
+    name: "Pandanese",
+    favicon: "/images/projects/logos/covidtracker.ico",
+    imageUrl: ["/images/projects/ruby.png"],
+    description:
+      "Implemented Ruby on Rails and Docker, using PostgreSQL as the database. For the user interface, I utilized React and Bootstrap.",
+    sourceCodeHref: "https://github.com/joelgenaro/CovidTracker",
+    liveWebsiteHref: "https://www.pandanese.com/",
   },
   {
     name: "FitBark GPS for Dogs & Cats",
