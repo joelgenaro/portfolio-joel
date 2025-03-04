@@ -19,7 +19,6 @@ import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import RubySvg from "@/public/icons/ruby.svg";
 import RailsSvg from "@/public/icons/rails.svg";
-import PHPSvg from "@/public/icons/php.svg";
 
 // Libraries
 import AngularSvg from "@/public/icons/angular.svg";
@@ -35,7 +34,6 @@ import ReactnativeSvg from "@/public/icons/reactjs.svg";
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
 import NestjsSvg from "@/public/icons/nestjs.svg";
-import LaravelSvg from "@/public/icons/laravel.svg";
 
 // Database and ORMS
 import MongoDBSvg from "@/public/icons/mongodb.svg";
@@ -76,10 +74,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Ruby",
         icon: RubySvg,
-      },
-      {
-        name: "PHP",
-        icon: PHPSvg,
       },
     ],
   },
@@ -162,10 +156,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Rails",
         icon: RailsSvg,
-      },
-      {
-        name: "Laravel",
-        icon: LaravelSvg,
       },
     ],
   },
