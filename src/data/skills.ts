@@ -19,6 +19,7 @@ import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 import RubySvg from "@/public/icons/ruby.svg";
 import RailsSvg from "@/public/icons/rails.svg";
+import Bootstrap from "@/public/icons/bootstrap.svg";
 
 // Libraries
 import AngularSvg from "@/public/icons/angular.svg";
@@ -107,6 +108,10 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       {
         name: "Tailwindcss",
         icon: TailwindcssSvg,
+      },
+      {
+        name: "Bootstrap",
+        icon: Bootstrap,
       },
       {
         name: "MUI",
