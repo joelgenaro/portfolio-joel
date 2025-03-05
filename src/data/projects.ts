@@ -19,12 +19,10 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     tags: [
       "Reactjs",
       "Next.js",
-      "TailwindCSS",
       "Shadcn UI",
       "PostgreSQL",
       "Drizzle",
       "Zustand",
-      "Vercel",
     ],
     image: {
       LIGHT: "/images/projects/eventcompany.webp",
@@ -35,7 +33,7 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     index: 2,
     title: "Flightradar",
     href: "/projects",
-    tags: ["Reactjs", "Vite", "Tailwindcss", "Vercel", "Redux", "React DND"],
+    tags: ["Reactjs", "Vite", "Bootstrap", "Vercel", "Redux", "React DND"],
     image: {
       LIGHT: "/images/projects/img_20241204.webp",
       DARK: "/images/projects/img_20241204.webp",
