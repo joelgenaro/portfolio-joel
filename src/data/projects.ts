@@ -51,7 +51,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
       "/images/projects/jsontreeDark.webp",
     ],
     description:
-      "Visualize JSON data format in form of a tree or graph. Application is made using Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
+      "Visualize JSON data format in form of a tree or graph. Application is made using React/Nextjs, Tailwindcss and Monaco Editor. Design image can be downloaded from this app.",
     sourceCodeHref: "https://github.com/joelgenaro/jsontree",
     liveWebsiteHref: "https://jsontree.vercel.app",
   },
@@ -98,7 +98,7 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
     favicon: "/images/projects/logos/kanban.ico",
     imageUrl: ["/images/projects/img_20241204.png"],
     description:
-      "I utilized React/Node, and for the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
+      "I utilized React/Node (Nest.js), and for the mapping component, I integrated web map libraries such as Leaflet and OpenLayers, enabling the display of detailed, interactive maps that seamlessly showcase flight paths and aircraft positions.",
     sourceCodeHref: "https://github.com/joelgenaro/FlightTradar",
     liveWebsiteHref: "https://www.flightradar24.com",
   },
