@@ -27,8 +27,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
       "Vercel",
     ],
     image: {
-      LIGHT: "/images/projects/companyevent.webp",
-      DARK: "/images/projects/companyevent.webp",
+      LIGHT: "/images/projects/eventcompany.webp",
+      DARK: "/images/projects/eventcompany.webp",
     },
   },
   {
